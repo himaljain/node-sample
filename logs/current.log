@@ -1,0 +1,75 @@
+[2018-02-01 05:16:34.490] [ERROR] main - Throwing a dummy error
+[2018-02-01 05:16:34.579] [INFO] main - Sample log message from DB 
+[2018-02-01 05:16:34.777] [INFO] main - Sample log message from DB 
+[2018-02-01 05:16:34.792] [ERROR] main - Got Error as expected Error: Throwing new error.
+    at Promise (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\couchbase-sample\couchbase-sample.db.spec.js:56:23)
+    at new Promise (<anonymous>)
+    at Object.dbHelper.query (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\couchbase-sample\couchbase-sample.db.spec.js:55:20)
+    at CouchbaseSampleDB.<anonymous> (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\couchbase-sample\couchbase-sample.db.js:9:5405)
+    at Generator.next (<anonymous>)
+    at C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\couchbase-sample\couchbase-sample.db.js:9:4355
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\couchbase-sample\couchbase-sample.db.js:9:3155)
+    at CouchbaseSampleDB.getWorkqueue (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\couchbase-sample\couchbase-sample.db.js:9:5006)
+    at UserContext.it (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\couchbase-sample\couchbase-sample.db.spec.js:61:12)
+[2018-02-01 05:16:35.012] [ERROR] main - Throwing a dummy error
+[2018-02-01 05:16:35.616] [ERROR] main - Got Error as expected Error: Throwing a dummy error.
+    at Promise (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\health\health.db.spec.js:58:27)
+    at new Promise (<anonymous>)
+    at Object.executeSqlQuery (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\health\health.db.spec.js:57:24)
+    at HealthDB.<anonymous> (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\health\health.db.js:9:5537)
+    at Generator.next (<anonymous>)
+    at C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\health\health.db.js:9:4355
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\health\health.db.js:9:3155)
+    at HealthDB.checkDBConnection (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\health\health.db.js:9:5231)
+    at UserContext.it (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\health\health.db.spec.js:71:18)
+[2018-02-01 05:16:35.759] [INFO] main - This is just a sample logging message without request context.
+[2018-02-01 05:16:35.778] [INFO] main - This is just a sample logging message with request context.
+[2018-02-01 05:16:35.785] [INFO] main - Different messages can be correlated.
+[2018-02-01 05:16:35.837] [ERROR] main - Throwing a dummy error
+[2018-02-01 05:16:35.941] [INFO] main - Sample log message from DB 
+[2018-02-01 05:16:36.041] [INFO] main - Sample log message from DB 
+[2018-02-01 05:16:36.047] [ERROR] main - Got Error as expected Error: Throwing a dummy error.
+    at Promise (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\sql-sample\sql-sample.db.spec.js:58:27)
+    at new Promise (<anonymous>)
+    at Object.executeSqlQuery (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\sql-sample\sql-sample.db.spec.js:57:24)
+    at SQLSampleDB.<anonymous> (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\sql-sample\sql-sample.db.js:9:5630)
+    at Generator.next (<anonymous>)
+    at C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\sql-sample\sql-sample.db.js:9:4355
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\sql-sample\sql-sample.db.js:9:3155)
+    at SQLSampleDB.checkDBConnection (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\sql-sample\sql-sample.db.js:9:5237)
+    at UserContext.it (C:\Users\DEVHXJ\Desktop\crb-project-templates\crb-node-express-sample\dist\sql-sample\sql-sample.db.spec.js:71:21)
+[2018-02-01 05:17:03.307] [INFO] main - Listening on Port 3000
+[2018-02-01 05:22:59.127] [INFO] main - Listening on Port 3000
+[2018-02-01 09:06:41.603] [INFO] main - Listening on Port 3000
+[2018-02-01 09:06:52.570] [INFO] main - d1e8f804-c62a-4aeb-93f7-cbb221257cee|Annonymous|::1|GET|/|HTTP/1.1|404|139|10 ms
+[2018-02-01 09:06:52.697] [INFO] main - 5c2b1617-1221-403c-a71a-4de1677517fd|Annonymous|::1|GET|/favicon.ico|HTTP/1.1|404|150|0 ms
+[2018-02-01 09:09:18.442] [INFO] main - 7a90347b-cdb2-4a55-92c7-f2e09ea4c73c|Annonymous|::1|GET|//sql-sample/liveness/unsecure|HTTP/1.1|404|168|5 ms
+[2018-02-01 09:10:51.600] [INFO] main - This is just a sample logging message without request context.
+[2018-02-01 09:10:51.605] [INFO] main - 81c9b748-3f10-4e1e-9a6b-4f2c8528a1eb|This is just a sample logging message with request context.
+[2018-02-01 09:10:51.607] [INFO] main - 81c9b748-3f10-4e1e-9a6b-4f2c8528a1eb|Different messages can be correlated.
+[2018-02-01 09:10:51.615] [INFO] main - 81c9b748-3f10-4e1e-9a6b-4f2c8528a1eb|Annonymous|::1|GET|/sql-sample/liveness/unsecure|HTTP/1.1|204|-|16 ms
+[2018-02-01 09:11:09.754] [INFO] main - 8ce80f83-1740-4345-8e8d-0288bbffff9a|Annonymous|::1|GET|/health/readiness|HTTP/1.1|200|70|5681 ms
+[2018-02-01 09:12:49.416] [INFO] main - 0700e4cb-4edb-493b-9377-94ba6622b360|This is a custom middleware
+[2018-02-01 09:12:49.424] [INFO] main - 0700e4cb-4edb-493b-9377-94ba6622b360|This is a custom middleware
+[2018-02-01 09:12:49.435] [INFO] main - 0700e4cb-4edb-493b-9377-94ba6622b360|Sample log message from DB 
+[2018-02-01 09:12:55.635] [INFO] main - 0700e4cb-4edb-493b-9377-94ba6622b360|Annonymous|::1|GET|/sql-sample/readiness/unsecure|HTTP/1.1|200|70|6219 ms
+[2018-02-01 09:14:13.974] [INFO] main - de020f7b-8f91-4eb9-a9aa-8ca4355786c8|This is a custom middleware
+[2018-02-01 09:14:13.980] [INFO] main - de020f7b-8f91-4eb9-a9aa-8ca4355786c8|This is a custom middleware
+[2018-02-01 09:14:13.982] [INFO] main - de020f7b-8f91-4eb9-a9aa-8ca4355786c8|Sample log message from DB 
+[2018-02-01 09:14:20.496] [INFO] main - de020f7b-8f91-4eb9-a9aa-8ca4355786c8|Annonymous|::1|GET|/sql-sample/readiness/unsecure|HTTP/1.1|200|70|6522 ms
+[2018-02-01 09:14:34.737] [INFO] main - Listening on Port 3000
+[2018-02-01 09:14:39.848] [INFO] main - 1f2bf10a-b3ef-4f7e-afd8-8168f9c3ebfe|This is a custom middleware
+[2018-02-01 09:14:39.849] [INFO] main - 1f2bf10a-b3ef-4f7e-afd8-8168f9c3ebfe|This is a custom middleware
+[2018-02-01 09:14:39.857] [INFO] main - 1f2bf10a-b3ef-4f7e-afd8-8168f9c3ebfe|Sample log message from DB 
+[2018-02-01 09:14:44.731] [INFO] main - 1f2bf10a-b3ef-4f7e-afd8-8168f9c3ebfe|Annonymous|::1|GET|/sql-sample/readiness/unsecure|HTTP/1.1|200|70|4883 ms
+[2018-02-01 09:14:55.585] [INFO] main - a3f9c8f0-606f-42f4-9365-b77bbf8c6653|This is a custom middleware
+[2018-02-01 09:14:55.586] [INFO] main - a3f9c8f0-606f-42f4-9365-b77bbf8c6653|This is a custom middleware
+[2018-02-01 09:14:55.589] [INFO] main - a3f9c8f0-606f-42f4-9365-b77bbf8c6653|Sample log message from DB 
+[2018-02-01 09:15:00.530] [INFO] main - a3f9c8f0-606f-42f4-9365-b77bbf8c6653|Annonymous|::1|GET|/sql-sample/readiness/unsecure|HTTP/1.1|200|70|4946 ms
+[2018-02-01 09:15:56.021] [INFO] main - 1e1cd820-f37d-4e64-81ab-ad36b2e2b614|This is a custom middleware
+[2018-02-01 09:15:56.022] [INFO] main - 1e1cd820-f37d-4e64-81ab-ad36b2e2b614|This is a custom middleware
+[2018-02-01 09:15:56.026] [INFO] main - 1e1cd820-f37d-4e64-81ab-ad36b2e2b614|Sample log message from DB 
+[2018-02-01 09:16:02.629] [INFO] main - 1e1cd820-f37d-4e64-81ab-ad36b2e2b614|Annonymous|::1|GET|/sql-sample/readiness/unsecure|HTTP/1.1|200|70|6609 ms

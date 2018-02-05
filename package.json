@@ -1,0 +1,51 @@
+{
+  "name": "crb-node-express-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "serve-dev": "npm run build && npm start",
+    "start": "node ./dist/index.js",
+    "test": "gulp test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ttx/crb-security-express": "0.0.14",
+    "@ttx/nodeconnstrutil": "^2.1.0",
+    "@ttx/ttx-db-base": "0.0.10",
+    "@ttx/ttx-db-couchbase-helper": "0.0.7",
+    "@ttx/ttx-db-mssql-helper": "0.0.17",
+    "@ttx/ttx-logger-express": "0.0.6",
+    "@ttx/ttx-security-express": "0.0.40",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "inversify": "^3.3.0",
+    "mssql": "^4.0.1",
+    "reflect-metadata": "^0.1.10",
+    "squel": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/couchbase": "^2.1.30",
+    "@types/express": "^4.0.35",
+    "@types/jasmine": "^2.5.47",
+    "@types/log4js": "0.0.32",
+    "@types/node": "^7.0.12",
+    "@types/request": "0.0.42",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-tslint": "^8.0.0",
+    "gulp-typescript": "^3.1.6",
+    "jasmine": "^2.5.3",
+    "jasmine-spec-reporter": "^3.2.0",
+    "run-sequence": "^1.2.2",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
+  }
+}
